@@ -1,4 +1,31 @@
-Main Files:
+Problem Description:
+
+This project deals with implementation of two linear methods of classification: Linear Discriminant Function Analysis and
+k-Nearest Neighbor classification models. The Linear Discriminant Function learns its parameters using the 
+Minimization of Sum of Squared Errors method. While, the k-NN classifier is trained using Fisher Projection. 
+The two models are tested using three different data sets and their classification accuracies are compared to draw conclusions
+about the merits and demerits of each of the adapted approaches.
+
+Dataset Description:
+
+Three data sets are used to evaluate the performances of the built classification models in this project.
+
+a) Wine Dataset
+This dataset classifies wine into three different categories based on their chemical composition. 
+It uses 13 different features to determine the type of wine. The training set consists of 90 samples 
+and the test set consists of 88 samples.
+
+b) Wallpaper Dataset
+This dataset classifies wallpapers into 17 different groups based on 500 features. 
+This high dimensional dataset is split equally into training and test sets with each containing 1700 data samples.
+
+c) Taiji Dataset
+The Taiji Dataset classifies the captured motion into 8 classes of transitional and non-transitional frames.
+It uses 64 attributes to identify the frames and is a comparatively high volume data set with 11361 samples in the training set
+and 3924 samples in the test set.
+
+
+Files: 
 
 	starter_ldf - File to implement LDF using Least Squared Error
 	starter_knn - File to implement kNN classification using Fisher Projection
