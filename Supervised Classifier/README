@@ -1,0 +1,27 @@
+Main Files:
+
+	starter_ldf - File to implement LDF using Least Squared Error
+	starter_knn - File to implement kNN classification using Fisher Projection
+	two_class_case - File to demonstrate that Fisher criterion is a special case of least squares, for a 2 class problem.
+
+
+1) Run 'starter_ldf.m' to obtain classification results using linear discriminant method
+
+Associated Functions:
+
+	loadDataset - To load one of the three given datasets
+
+	learnDiscriminant- To learn the discriminant function for LDF
+	classify_ldy - To assign test labels to test set based on learned weights
+
+2) Run 'starter_knn' to obtain classification results using Fisher Projection
+
+Associated Functions:
+	
+	loadDataset - To load one of the three given dataset
+
+	fisher_Projection - To learn the Fisher weights in order to project the data.
+	knnClassify - To classify the projected test data using kNN classifier
+
+3) Run 'two_class_case.m' to obatin the comparison results for the 2 classifiers 
+
