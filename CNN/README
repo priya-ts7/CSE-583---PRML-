@@ -1,0 +1,24 @@
+
+This project deals with building and training a convolutional neural network. 
+Training a CNN is studied and the effect of learning rate is analyzed. 
+This projects also implements data augmentation to meaningfully increase the volume of training data in order to 
+prevent the network from overfitting and to make it more robust. 
+Finally, larger and computationally more involved CNNs are designed to deal with the augmented data sets.
+
+
+DATA:
+The dataset used in this project is the ‘Wallpaper Dataset’.
+This dataset consists of images of various wallpaper patterns. The images are grayscale images of dimension 256 X 256. 
+These images are broadly classified into 17 wallpaper groups. 
+Each group contains 1000 images in the training data set and the test data set. 
+Thus there are a total of 17,000 image each in the training and test sets.
+
+Files:
+
+main_matlab	    -	Run this file to execute baseline CNN on original data.		   	
+data_augTrain   - Run this file to create augmented training set. Folders for each class should be present in a folder  named train_aug.	
+data_augTest.   - Run this file to create augmented test set. Folders for each class should be present in a folder  named test_aug.	
+skinny_nw     	- Run this file to execute the skinny network on the original dataset. 
+skinny_aug    	-	Run this file to execute the skinny network on the augmented dataset. 
+wide_nw		      -	Run this file to execute the wide network on the original dataset. 
+wide_aug	      - Run this file to execute the wide network on the augmented dataset. 
