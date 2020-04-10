@@ -1,0 +1,22 @@
+
+This project deals with performing feature selection and classification on two given data sets. 
+Feature Selection is implemnted using two methods: filter and wrapper methods. 
+The two approaches are combined to reduce the computational complexity of the prediction model. 
+The features selected using the filter and wrapper are then used to train a kNN classifier.
+The selected subset of features are visualized and the accuracy of the classifiers are computed for both the given data sets.
+
+Functions:
+	rankingfeatures - Performs ranking of features using AVR metric
+	featureselect   - Performs Sequential Forward Selection on 'topfeatures' obtained form implementation of filter
+	countfeature    - Counts the number of times each feature is selected by filter
+	FinalFeatures   - Counts the number of times each feature is selected by wrapper
+	
+To run Feature Selection for Face data
+
+1) Set Matlab Directory to folder 'My code_Face'.
+2) Run starter_code to generate output
+
+To run Feature Selection for EEG data
+
+1) Set Matlab Directory to folder 'My code_EEG'.
+2) Run starter_code to generate output
