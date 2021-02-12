@@ -17,7 +17,7 @@ Files:
 
 main_matlab	    -	Run this file to execute baseline CNN on original data.		   	
 data_augTrain   - Run this file to create augmented training set. Folders for each class should be present in a folder  named train_aug.	
-data_augTest.   - Run this file to create augmented test set. Folders for each class should be present in a folder  named test_aug.	
+data_augTest    - Run this file to create augmented test set. Folders for each class should be present in a folder  named test_aug.	
 skinny_nw     	- Run this file to execute the skinny network on the original dataset. 
 skinny_aug    	-	Run this file to execute the skinny network on the augmented dataset. 
 wide_nw		      -	Run this file to execute the wide network on the original dataset. 
